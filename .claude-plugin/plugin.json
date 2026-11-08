@@ -1,0 +1,9 @@
+{
+  "name": "usage-guard",
+  "version": "0.1.0",
+  "description": "Shows your weekly Claude usage in a pane and the status line, and pauses the sessions this session started once when the weekly all-models window reaches a threshold (80% by default).",
+  "author": { "name": "OzAILabs" },
+  "repository": "https://github.com/OzAILabs/claude-usage-guard",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

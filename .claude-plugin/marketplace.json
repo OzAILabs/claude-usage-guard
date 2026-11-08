@@ -1,0 +1,15 @@
+{
+  "name": "usage-guard",
+  "description": "usage-guard: a Claude Code mod that shows weekly usage and pauses worker sessions at a threshold.",
+  "owner": {
+    "name": "OzAILabs"
+  },
+  "plugins": [
+    {
+      "name": "usage-guard",
+      "source": "./",
+      "description": "Shows your weekly Claude usage in a pane and the status line, and pauses the sessions this session started when the weekly all-models window reaches a threshold (80% by default).",
+      "version": "0.1.0"
+    }
+  ]
+}
